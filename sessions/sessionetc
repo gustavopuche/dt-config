@@ -1,0 +1,5 @@
+#!/bin/bash
+xset +fp /home/gustavo/.fonts
+/home/gustavo/bin/reload-Xresources.sh &
+/home/gustavo/bin/speed-up-cursor-x11.sh &
+pland &
