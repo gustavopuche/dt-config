@@ -178,6 +178,7 @@ Keys DtKeyBindings
 	Ctrl <Key>Escape                root|icon|window        f.exec "/home/gustavo/bin/dtterm-msx-small.sh top"
 	Ctrl Alt <Key>Return            root|icon|window        f.exec "lxterminal -e mc"
 	Ctrl Shift<Key>Return           root|icon|window        f.exec /home/gustavo/bin/dtterm-small.sh
+	Alt Shift<Key>Return            root|icon|window        f.exec /home/gustavo/bin/dtterm-small-pink.sh
 	<Key>XF86AudioRaiseVolume	root|icon|window        f.exec "amixer set Master 2+"
 	<Key>XF86AudioLowerVolume	root|icon|window        f.exec "amixer set Master 2-"
 	<Key>XF86AudioMute              root|icon|window        f.exec "amixer -D pulse set Master toggle"
