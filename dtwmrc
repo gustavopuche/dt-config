@@ -121,6 +121,8 @@ Keys DtKeyBindings
 	Ctrl<Key>Tab                    root|icon|window        f.prev_key
 	Alt<Key>Escape                  root|icon|window        f.next_key
 	Alt Shift<Key>Escape            root|icon|window        f.prev_key
+	Alt<Key>Down			root|icon|window	f.circle_down
+	Alt<Key>Up			root|icon|window	f.circle_up
 	Alt<Key>F1                      root|icon|window        f.exec /home/gustavo/bin/move-origin
 	Alt<Key>F2                      root|icon|window        f.normalize
 	Alt<Key>F3                      root|icon|window        f.maximize
@@ -179,6 +181,9 @@ Keys DtKeyBindings
 	Ctrl Alt <Key>Return            root|icon|window        f.exec "lxterminal -e mc"
 	Ctrl Shift<Key>Return           root|icon|window        f.exec /home/gustavo/bin/dtterm-small.sh
 	Alt Shift<Key>Return            root|icon|window        f.exec /home/gustavo/bin/dtterm-small-pink.sh
+	mod4 Shift<Key>Return           root|icon|window        f.exec /home/gustavo/bin/dtterm-small-yellow.sh
+	Ctrl mod4 Shift<Key>Return      root|icon|window        f.exec /home/gustavo/bin/dtterm-small-green.sh
+	Ctrl mod4 Alt<Key>Return        root|icon|window        f.exec /home/gustavo/bin/dtterm-small-salmon.sh
 	<Key>XF86AudioRaiseVolume	root|icon|window        f.exec "amixer set Master 2+"
 	<Key>XF86AudioLowerVolume	root|icon|window        f.exec "amixer set Master 2-"
 	<Key>XF86AudioMute              root|icon|window        f.exec "amixer -D pulse set Master toggle"
